@@ -1,0 +1,62 @@
+1.[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+İlk Adım: 1. indeksteki sayı  ile 0. indeksteki sayının kıyaslanması
+Sonuç = [22,27,16,2,18,6]
+
+İki Adım: 2. indeksteki sayı  ile 0 ve 1. indeksteki sayıların kıyaslanması
+Sonuç = [16,22,27,2,18,6]
+
+Üçüncü Adım: 3. indeksteki sayı  ile 0, 1 ve 2. indeksteki sayıların kıyaslanması
+Sonuç = [2,16,22,27,18,6]
+
+
+Üçüncü Adım: 4. indeksteki sayı  ile 0, 1, 2 ve 3. indeksteki sayıların kıyaslanması
+Sonuç = [2,16,18,22,27,6]
+
+Son Adım: 5. indeksteki sayı  ile 0, 1, 2, 3 ve 4. indeksteki sayıların kıyaslanması
+Sonuç = [2,6,16,18,22,27]
+
+
+
+
+
+Big-O gösterimini yazınız.
+
+
+Insertion Sort Average Time Complexity: O(n^2)
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+Cevap : 18 ortada olduğu  için average case olarak değerlendirebiliriz.
+.
+
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+
+1) Dizideki en küçük eleman olan 2 ile dizinin ilk elemanı olan 7 nin yerlerinin değiştirilmesi
+
+
+[2,3,5,8,7,9,4,15,6]
+
+
+2) 2 hariç en küçük eleman olan 3 ün yine aynı yerine alınması
+
+[2,3,5,8,7,9,4,15,6]
+
+3) 3 ten büyük en küçük sayı olan 4'ün 3'ün soluna yazılması
+
+[2,3,4,8,7,9,5,15,6]
+
+4) 4 ten büyük en küçük sayı olan 5'in 3'ün soluna yazılması ve 5'in yerine de 8'in yazılması
+
+[2,3,4,5,7,9,8,15,6]
+
+
